@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.sidebar {
-	float:left;
-}
-
-.main {
-	float:right;
+.jumbotron {
+	background-color:#eee;
 }

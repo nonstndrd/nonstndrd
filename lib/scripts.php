@@ -14,6 +14,7 @@
  * - An ID has been defined in config.php
  * - You're not logged in as an administrator
  */
+ 
 function roots_scripts() {
   /**
    * The build task in Grunt renames production assets with a hash
@@ -21,7 +22,7 @@ function roots_scripts() {
    */
   if (WP_ENV === 'development') {
     $assets = array(
-      'css'       => '/assets/css/main.css',
+      'css'       => '/assets/css/main.css', 
       'js'        => '/assets/js/scripts.js',
       'modernizr' => '/assets/vendor/modernizr/modernizr.js',
       'jquery'    => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js'
@@ -36,9 +37,8 @@ function roots_scripts() {
       'jquery'    => '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'
     );
   }
-
   wp_enqueue_style('roots_css', get_template_directory_uri() . $assets['css'], false, null);
-
+wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/css/custom.css' ); 
   /**
    * jQuery is loaded using the same method from HTML5 Boilerplate:
    * Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline

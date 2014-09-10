@@ -1,5 +1,5 @@
 /*
-Theme Name:         Roots Starter Theme
+Theme Name:         Art Center Dev Theme (Roots)
 Theme URI:          http://roots.io/starter-theme/
 Description:        Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. <a href="https://github.com/roots/roots/contributors">Contribute on GitHub</a>
 Version:            7.0.1
@@ -9,11 +9,3 @@ Author URI:         http://roots.io/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
-
-.sidebar {
-	float:left;
-}
-
-.main {
-	float:right;
-}
