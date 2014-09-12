@@ -1,5 +1,4 @@
-<div class="container">
-<div class="jumbotron">
+
 <header class="navbar navbar-default navbar-fixed-top" role="banner">
   <div class="container">
     <div class="navbar-header">
